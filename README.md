@@ -73,7 +73,7 @@ npm run preview
 
 4.**ИИ агент прямо внутри дневника,для помощи и организации ученика в школе**
 
-**An agent right inside the diary to help and organize the student**
+**AI agent right inside the diary to help and organize the student**
 
 5.**Школьные кружки, система записи на школьные кружки разных видов, ИИ может записать ученика по его просьбе самостоятельно**
 
