@@ -1,0 +1,6 @@
+{
+  "folders": [
+    { "path": "frontend", "name": "Дневник — Frontend" },
+    { "path": "backend", "name": "Дневник — Backend" }
+  ]
+}

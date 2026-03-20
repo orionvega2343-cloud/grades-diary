@@ -1,0 +1,50 @@
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.homeContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.homeTitle {
+    font-size: 32px;
+    color: #f9fafb;
+    margin-bottom: 2rem;
+    width: 650px;
+}
+
+.homeText {
+    display: flex; 
+    flex: 1;
+    font-size: 16px;
+    color: #d1d5db;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+}
+
+.try {
+    width: 250px;
+    background-color: #2563eb;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #ffff;
+    font-weight: 600;
+    margin-top: 1rem;
+    border: none;
+    border-radius: 16px;
+}
+.try:hover {
+    background-color: #1d4ed8;        /* чуть темнее при ховере */
+  }
+  .try:active {
+    background-color: #1e3a8a;        /* ещё чуть темнее при клике */
+    transform: translateY(1px);
+  }

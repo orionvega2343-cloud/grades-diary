@@ -1,0 +1,30 @@
+.layout {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  flex-shrink: 0;
+}
+
+.body {
+  flex: 1;
+  display: flex;
+  min-height: 0;
+}
+
+.sidebar {
+  flex-shrink: 0;
+  width: 260px;
+}
+
+.main {
+  flex: 1;
+  overflow: auto;
+  padding: 32px 0; /* горизонтальные отступы убрали, чтобы хедеры могли быть во всю ширину */
+}
+
+.noScroll .main {
+  overflow: hidden;
+}
