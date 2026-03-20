@@ -89,7 +89,3 @@ npm run preview
 - CSS modules
 - React Router
 ---
-
-
-
-
