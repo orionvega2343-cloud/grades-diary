@@ -1,8 +1,9 @@
-# Дневник оценок
+# Дневник оценок - Grades diary
 
-Структура проекта — фронт и бэкенд разбиты по файлам. Код пишешь сам.
-
-## Дерево структуры
+Структура проекта — фронт и бэкенд разбиты по файлам.
+---
+## Дерево структуры - Structure tree
+---
 
 ```
 grades-diary/
@@ -45,20 +46,50 @@ grades-diary/
 cd frontend
 npm install
 npm run dev
+
 ```
 
-## С чего начать сегодня
+## Сборка 
+```bash
+npm run build
+npm run preview
+```
 
-1. **Подключи роуты в `App.jsx`**  
-   Импортируй страницы ученика (`DashboardPage`, `SubjectPage`, `AIPage`) и пропиши для них `Route` (пути например: `/`, `/subject/:id`, `/ai`). Пока можно рендерить в каждой странице просто заголовок типа «Панель оценок» / «Предмет» / «ИИ».
 
-2. **Сделай `Layout`**  
-   В `Layout.jsx` выведи шапку (Header) и `Sidebar` с ссылками `Link` на эти страницы. В `App.jsx` оберни `Routes` в `Layout`, чтобы на всех страницах было общее меню.
+## Краткое описание проекта Brief description  of the project
 
-3. **Добавь моки в `mocks/grades.js`**  
-   Создай массив из 5–10 объектов вида `{ id, subjectName, value, date }` и экспортируй его. Потом его можно будет использовать на Dashboard и Subject без бэкенда.
+1. **Главная страница,с кратким описанием дневника оценок,работой фронтенда и бэкенда**
 
-4. **Функция среднего в `utils/average.js`**  
-   Напиши функцию, которая принимает массив оценок (числа) и возвращает среднее. Её потом подключишь к данным из моков.
+**Main page with brief description of the project a grades diary,job frontend and backend**
 
-После этого у тебя будет работающая навигация, общий layout и данные для отображения на одной из страниц.
+
+2. **Общий макет боковой панели и шапки для всех страниц**
+
+**General design of the sidebar and header for the all pages**
+
+3. **Система дневника, с общими оценками, по 1 предмету и по всем предметам, расписание(пока закардкожено),список домашних заданий,расписание каникул**
+
+**A diary system with overall grades for one subject and for all subjects, a schedule (currently hard-coded), a homework list, and a vacation holidays.**
+
+4.**ИИ агент прямо внутри дневника,для помощи и организации ученика в школе**
+
+**An agent right inside the diary to help and organize the student**
+
+5.**Школьные кружки, система записи на школьные кружки разных видов, ИИ может записать ученика по его просьбе самостоятельно**
+
+**School clubs, a system for registering for various types of school clubs, AI can register a student at their request independently**
+
+
+
+---
+
+##Стек 
+
+- React + Vite 
+- CSS modules
+- React Router
+---
+
+
+
+
